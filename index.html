@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="functions.js"></script>
+        <title>Resistance Calc</title>
+        <link rel="icon" type="image/x-icon" href="https://img.freepik.com/free-vector/glitch-abstract-lightning-logo_23-2148934545.jpg">
+        </head>
+        <body onload="load_colors()">
+            <img id="resbody" src="resbody.png">
+            <div id="band1"></div>
+            <div id="band2"></div>
+            <div id="band3"></div>
+            <div id="tolerance"></div>
+        </img>
+        <center>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <text id="resistance_band1" class="resistance">0</text>
+            <text id="resistance_band2" class="resistance">0</text>
+            <text id="resistance_band3" class="resistance">0 </text>
+            <text class="resistance">  &pm; </text>
+            <text id="resistance_tolerance" class="resistance">0</text>
+            <text class="resistance">% &#x2126; </text>
+            <div class="color_input">
+            <label>1st Band: </label>
+            <select onchange="calculate(1)" id="band1_color_selections">
+                <option>Loading</option>
+            </select>
+            <br>
+            <label>2nd Band: </label>
+            <select onchange="calculate(2)" id="band2_color_selections">
+                <option>Loading</option>
+            </select>
+            <br>
+            <label>3rd Band: </label>
+            <select onchange="calculate(3)" id="band3_color_selections">
+                <option>Loading</option>
+            </select>
+            <br>
+            <label>Tolarence: </label>
+            <select onchange="calculate(4)" id="tolerance_color_selections">
+                <option>Loading</option>
+            </select>
+        </div>
+        <h1 class="credit">Developed by <br> WanZ</h1>
+            </center>
+            </body>
+</html>

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+body    {
+    background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2014/03/17/300406/b936d6bbf0b58d6a2ad84312aeda868c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+label   {
+    color: white;
+    font-size: 50px;
+}
+.resistance    {
+
+    position: relative;
+    top: 25px;
+   
+    /* left: 25%; */
+    font-size: 100px;
+    color: white;
+    /* margin-left: 20px; */
+}
+.color_input    {
+    position: fixed;
+    top: 40%;
+    left: 20%;
+}
+select  {
+    margin-top: 50px;
+    top: 40%;
+    width: 250px;
+    height: 90px;
+    font-size: 40px;
+}
+option  {
+    font-size: 20px ;
+}
+
+#resbody    {
+    position: fixed;
+    left: 7%;
+    top: 10%;
+    width: 850px;
+}
+
+#band1, #band2, #band3, #tolerance  {
+    position: fixed;
+    top: 10.8%;
+    width: 10px;
+    height: 138px;
+    background-color: black;
+}
+
+#band1  {
+    left: 30%;
+    background-color: var(--band1_color);
+}
+#band2  {
+    left: 40%;
+    background-color: var(--band2_color);
+}
+#band3  {
+    left: 50%;
+    background-color: var(--band3_color);
+}
+#tolerance  {
+    left: 70%;
+    background-color: var(--tolerance_color);
+}
+.credit {
+    position: absolute;
+    left: 20%;
+    bottom: 0%;
+    font-family: "Honk", system-ui;
+    font-size: 100px;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "MORF" 15,
+        "SHLN" 50;
+}
