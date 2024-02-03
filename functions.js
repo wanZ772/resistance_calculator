@@ -28,6 +28,9 @@ tolerance = {
 root = document.querySelector(':root');
 // options = ["<option value='0'>Black</option>", "<option value='1'>Brown</option>", "<option value='2'>Red</option>", "<option value='3'>Orange</option>", "<option value='4'>Yellow</option>", "<option value='5'>Green</option>", "<option value='6'>Blue</option>", "<option value='7'>Violet</option>", "<option value='8'>Grey</option>", "<option value='9'>White</option>"];
 // document.getElementById("band1_color_selections").innerHTML = options;
+function reset()    {
+    window.location.reload();
+}
 function calculate(band) {
   
     switch (band)   {
@@ -58,8 +61,13 @@ function load_colors()  {
     console.log("load");
     document.getElementById("band1_color_selections").innerHTML = options;
     for (i = 0; i < 13; i++)    {
-        options.push("<option value='"+(i-1)+"'>"+colors[i-1]+"</option>");
+        if (i -1 != -1){
+        options.push("<option value='"+(i-1)+"'>"+ (i-1) + " - " + colors[i-1]+"</option>");
+        } else  {
+            options.push("<option value='"+(i-1)+"'>"+colors[i-1]+"</option>");
+        }
     }
+    // for (i = 0)
     document.getElementById("band1_color_selections").innerHTML = options;
     document.getElementById("band2_color_selections").innerHTML = options;
     document.getElementById("band3_color_selections").innerHTML = options;    

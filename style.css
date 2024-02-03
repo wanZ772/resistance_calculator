@@ -21,8 +21,8 @@ label   {
 }
 .color_input    {
     position: fixed;
-    top: 40%;
-    left: 20%;
+    top: 35%;
+    left: 24%;
 }
 select  {
     margin-top: 50px;
@@ -30,11 +30,22 @@ select  {
     width: 250px;
     height: 90px;
     font-size: 40px;
+    text-align: center;
 }
 option  {
     font-size: 20px ;
+    
 }
-
+#reset_button  {
+   
+    
+    margin-top: 50px;
+    width: 500;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
 #resbody    {
     position: fixed;
     left: 7%;
@@ -44,7 +55,7 @@ option  {
 
 #band1, #band2, #band3, #tolerance  {
     position: fixed;
-    top: 10.8%;
+    top: 10.65%;
     width: 20px;
     height: 138px;
     background-color: black;
