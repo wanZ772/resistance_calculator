@@ -45,7 +45,7 @@ option  {
 #band1, #band2, #band3, #tolerance  {
     position: fixed;
     top: 10.8%;
-    width: 10px;
+    width: 20px;
     height: 138px;
     background-color: black;
 }
